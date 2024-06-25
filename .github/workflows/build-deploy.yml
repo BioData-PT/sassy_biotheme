@@ -1,0 +1,45 @@
+name: Build and Deploy
+on: [push]
+
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "16.x"
+          check-latest: true
+      - name: Get npm packages
+        run: npm ci
+      - name: Compile with Gulp
+        run: |
+          gulp styles
+          gulp js
+      - name: Upload artifacts
+        uses: actions/upload-artifact@master
+        with:
+          name: sassy_biotheme
+          path: dist/
+  deploy:
+    needs: build
+    name: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@master
+        with:
+          name: sassy_biotheme
+          path: dist/
+      - name: Copy files to server
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          port: ${{ secrets.PORT }}
+          source: "dist/sassy_biotheme"
+          target: ${{ secrets.TARGET }}
+          key: ${{ secrets.PRIVATE_KEY }}
+          rm: true
