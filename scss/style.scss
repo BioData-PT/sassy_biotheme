@@ -10,75 +10,75 @@ Description: Theme for the BioData.pt website, based on Barrio SASS.
 -------------------------------------------------*/
 
 body {
-  background: $white;
+    background: $white;
 }
 
 /* COLORS
 --------------------------------------------------*/
 
 a {
-  color: $accent-shade;
+    color: $accent-shade;
 }
 
 .bg-inverse {
-  background: $primary-shade !important;
+    background: $primary-shade !important;
 }
 
 .site-footer {
-  background: $primary-shade !important;
+    background: $primary-shade !important;
 }
 
 .menu--main li a {
-  color: rgb(115, 115, 115);
-  font-family: "Roboto Slab", sans-serif;
-  font-weight: bold;
-  font-size: 1.25rem;
-  text-transform: uppercase;
+    color: rgb(115, 115, 115);
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-transform: uppercase;
 }
 
 .menu--main .menu-item--expanded li a {
-  font-family: "Raleway", sans-serif;
-  color: $primary-shade;
-  font-weight: normal;
-  text-decoration: none;
-  text-transform: none;
-  font-size: 1.25rem;
+    font-family: "Raleway", sans-serif;
+    color: $primary-shade;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 1.25rem;
 }
 
 .menu--account li a {
-  color: $primary-shade;
+    color: $primary-shade;
 }
 
 .site-name-slogan a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .card-group img {
-  margin: 0;
-  width: 100%;
-  height: auto;
+    margin: 0;
+    width: 100%;
+    height: auto;
 }
 
 .card-group .field--type-image {
-  margin: 0;
+    margin: 0;
 }
 
 .slick {
-  width: 100%;
+    width: 100%;
 }
 
 .slick > div {
-  margin: 0 15px;
+    margin: 0 15px;
 }
 
 .navbar-brand img {
-  height: 55px;
+    height: 55px;
 }
 
 @media (min-width: 992px) {
-  .navbar-brand img {
-    height: 90px;
-  }
+    .navbar-brand img {
+        height: 90px;
+    }
 }
 
 h1,
@@ -93,176 +93,176 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Roboto Slab", sans-serif;
+    font-family: "Roboto Slab", sans-serif;
 }
 
 h1,
 .h1 {
-  text-transform: uppercase;
-  color: var(--bs-primary) !important;
+    text-transform: uppercase;
+    color: var(--bs-primary) !important;
 }
 
 h3,
 .h3 {
-  text-transform: uppercase;
-  color: #662b14 !important;
-  font-size: 1.17em;
+    text-transform: uppercase;
+    color: #662b14 !important;
+    font-size: 1.17em;
 }
 
 .person__card-name a {
-  font-family: "Roboto Slab", sans-serif;
-  font-weight: 300;
-  text-decoration: none;
-  color: #89320c;
-  font-size: 1.75em;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: #89320c;
+    font-size: 1.75em;
 }
 
 .person__card-image img {
-  float: left;
-  margin-right: 2em;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+    float: left;
+    margin-right: 2em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .platform-card__title {
-  font-family: "Roboto Slab", sans-serif;
-  font-weight: 800;
-  background-color: var(--bs-primary);
-  padding-top: 2px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  margin-top: 20px;
-  margin-bottom: 1em;
-  font-size: 1.25rem;
-  color: white;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 800;
+    background-color: var(--bs-primary);
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 1em;
+    font-size: 1.25rem;
+    color: white;
 }
 
 .platform-card__image {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .more-link a {
-  color: #91522f;
-  font-weight: bold;
-  text-decoration: none;
+    color: #91522f;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .news__card-title {
-  background-color: var(--bs-primary);
-  text-align: center;
-  text-transform: uppercase;
+    background-color: var(--bs-primary);
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .news__card-title a {
-  text-decoration: none;
-  color: white;
-  height: 5rem;
-  padding: 0.25rem 0.25rem;
-  display: grid;
-  align-items: center;
+    text-decoration: none;
+    color: white;
+    height: 5rem;
+    padding: 0.25rem 0.25rem;
+    display: grid;
+    align-items: center;
 }
 
 #edit-openid-connect-client-ls-aai-login {
-  background-image: url("https://rgw03.tp.dsi.tecnico.ulisboa.pt/BioData-Backups/www/public/2024-02/ls-login.png");
-  background-color: white;
-  border: none;
-  background-size: cover;
-  font-size: 0;
-  height: 42.219px;
-  width: 190px;
+    background-image: url("https://rgw03.tp.dsi.tecnico.ulisboa.pt/BioData-Backups/www/public/2024-02/ls-login.png");
+    background-color: white;
+    border: none;
+    background-size: cover;
+    font-size: 0;
+    height: 42.219px;
+    width: 190px;
 }
 
 #edit-openid-connect-client-ls-aai-login:hover {
-  border-radius: 8px;
-  filter: brightness(95%);
-  box-shadow: 0 0 5px #b8b6b7;
+    border-radius: 8px;
+    filter: brightness(95%);
+    box-shadow: 0 0 5px #b8b6b7;
 }
 
 /* Courses block */
 .course-card__title {
-  display: grid;
-  align-items: center;
-  background-color: #f35c19;
-  margin-top: 20px;
-  height: 60px;
-  text-transform: uppercase;
-  width: 100%;
-  margin-bottom: 1em;
+    display: grid;
+    align-items: center;
+    background-color: #f35c19;
+    margin-top: 20px;
+    height: 60px;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 1em;
 }
 .course-card__title a {
-  text-decoration: none;
-  color: white;
-  text-align: center;
+    text-decoration: none;
+    color: white;
+    text-align: center;
 }
 .more-link a {
-  color: #91522f;
-  font-weight: bold;
-  text-decoration: none;
+    color: #91522f;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 /* Make article images fluid */
 
 .block-field-blocknodevarbase-blogfield-media img {
-  max-width: 100%;
-  height: auto;
-  margin: auto auto;
+    max-width: 100%;
+    height: auto;
+    margin: auto auto;
 }
 
 /* Platforms block styling */
 .platform-card__title {
-  font-family: "Roboto Slab", sans-serif;
-  font-weight: 800;
-  background-color: var(--bs-primary);
-  padding-top: 2px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  margin-top: 20px;
-  margin-bottom: 1em;
-  font-size: 1.25rem;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 800;
+    background-color: var(--bs-primary);
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 1em;
+    font-size: 1.25rem;
 }
 .platform-card__title a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 .views-label-field-facilitators {
-  font-weight: bold;
+    font-weight: bold;
 }
 .views-field-field-facilitators > .field-content > a {
-  color: black;
+    color: black;
 }
 
 .dropdown-item.active,
 .dropdown-item:active {
-  --bs-dropdown-link-active-bg: #f35c19;
+    --bs-dropdown-link-active-bg: #f35c19;
 }
 
 .dropdown-item:active a {
-  color: white !important;
+    color: white !important;
 }
 
 .swiper-container img {
-  width: 100%;
+    width: 100%;
 }
 
 .news-teaser__title a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 thead > tr > th {
-  color: var(--bs-secondary);
+    color: var(--bs-secondary);
 }
 
 .account-dashboard__pane {
-  gap: 20px;
+    gap: 20px;
 }
 
 .support--img img {
-  max-width: 123px;
-  max-height: 123px;
+    max-width: 123px;
+    max-height: 123px;
 }
 
-.node--type-varbase-blog ._none > div:nth-child(1) {
+.node--type-article ._none > div:nth-child(1) {
     max-width: 750px;
 }
 
