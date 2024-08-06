@@ -9,4 +9,4 @@ Based on the [SASS Starter Kit](https://www.drupal.org/project/bootstrap_sass) f
 3. Ensure the [`boostrap_barrio`](https://git.drupalcode.org/project/bootstrap_barrio) files are available at `../../contrib/bootstrap_bariro`.
 
 ## Compiling
-Run `gulp js` and `gulp css` to compile.
+Run `gulp js` and `gulp styles` to compile.
