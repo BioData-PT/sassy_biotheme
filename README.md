@@ -9,4 +9,7 @@ Based on the [SASS Starter Kit](https://www.drupal.org/project/bootstrap_sass) f
 3. Ensure the [`boostrap_barrio`](https://git.drupalcode.org/project/bootstrap_barrio) files are available at `../../contrib/bootstrap_bariro`.
 
 ## Compiling
-Run `gulp js` and `gulp styles` to compile.
+Run `gulp js` and `gulp styles` to compile. **Compile before committing**, as CI does not perform any compilations.
+
+## Deploy
+GitHub Actions CI automatically deploys files to server.
