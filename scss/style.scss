@@ -99,7 +99,7 @@ h6,
 h1,
 .h1 {
     text-transform: uppercase;
-    color: var(--bs-primary) !important;
+    color: $accent-shade !important;
 }
 
 h3,
@@ -127,7 +127,7 @@ h3,
 .platform-card__title {
     font-family: "Roboto Slab", sans-serif;
     font-weight: 800;
-    background-color: var(--bs-primary);
+    background-color: $accent-shade;
     padding-top: 2px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -149,7 +149,7 @@ h3,
 }
 
 .news__card-title {
-    background-color: var(--bs-primary);
+    background-color: $accent-shade;
     text-align: center;
     text-transform: uppercase;
 }
@@ -213,7 +213,7 @@ img.image-style-article-header {
 .platform-card__title {
     font-family: "Roboto Slab", sans-serif;
     font-weight: 800;
-    background-color: var(--bs-primary);
+    background-color: $accent-shade;
     padding-top: 2px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -282,6 +282,13 @@ img.image-style-article-header {
     font-family: "Roboto Slab", sans-serif;
     font-weight: 300;
     text-decoration: none;
-    color: #89320c;
+    color: $accent-shade;
     font-size: 1.75em;
+}
+
+// Active element in services menu
+.menu--services .nav-link--services.is-active {
+    color: white;
+    background-color: orange;
+    border-radius: 6px;
 }
