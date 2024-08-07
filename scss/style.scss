@@ -289,6 +289,6 @@ img.image-style-article-header {
 // Active element in services menu
 .menu--services .nav-link--services.is-active {
     color: white;
-    background-color: orange;
+    background-color: $accent-shade;
     border-radius: 6px;
 }
