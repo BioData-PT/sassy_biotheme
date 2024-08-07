@@ -183,7 +183,7 @@ h3,
 .course-card__title {
     display: grid;
     align-items: center;
-    background-color: #f35c19;
+    background-color: $accent-alt;
     margin-top: 20px;
     height: 60px;
     text-transform: uppercase;
@@ -196,7 +196,7 @@ h3,
     text-align: center;
 }
 .more-link a {
-    color: #91522f;
+    color: $accent-alt;
     font-weight: bold;
     text-decoration: none;
 }
@@ -282,7 +282,7 @@ img.image-style-article-header {
     font-family: "Roboto Slab", sans-serif;
     font-weight: 300;
     text-decoration: none;
-    color: $accent-dark;
+    color: $accent-alt;
     font-size: 1.75em;
 }
 

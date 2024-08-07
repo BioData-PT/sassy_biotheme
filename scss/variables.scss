@@ -4,9 +4,10 @@
 $primary-shade: #444041;
 $primary-light: tint-color($primary-shade, 37%);
 $primary-dark: shade-color($primary-shade, 12%);
-$accent-shade:  #d46e3B;
+$accent-shade:  #f35a19;
 $accent-light: tint-color($accent-shade, 37%);
 $accent-dark: shade-color($accent-shade, 12%);
+$accent-alt: #91522f;
 // Reassign color vars to semantic color scheme
 $red: #dc3545;
 $yellow: #ffc107;
