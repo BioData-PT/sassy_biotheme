@@ -292,3 +292,10 @@ img.image-style-article-header {
     background-color: $accent-shade;
     border-radius: 6px;
 }
+
+// Make non-admin user's forms not take the full viewport's width
+#block-sassy-biotheme-content > .content > form {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
