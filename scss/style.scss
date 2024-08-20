@@ -299,3 +299,38 @@ img.image-style-article-header {
     margin-left: auto;
     margin-right: auto;
 }
+
+.field--name-field-reference > .field__item {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--bs-primary);
+    font-size: 1.75em;
+    margin-bottom: 1.5rem !important;
+}
+
+.field--name-field-reference > .field__item {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--bs-primary);
+    font-size: 1.75em;
+    margin-bottom: 1.5rem !important;
+}
+
+.field__label {
+    font-weight: bold;
+    margin-right: .5rem;
+}
+
+.field__label::after {
+    content: ":";
+}
+
+.block-field-blocknodejob-postingschema-responsibilities, .block-field-blocknodejob-postingschema-skills > .content > .field > .field__item {
+    margin: .25rem 0;
+}
+
+.block-field-blocknodejob-postingschema-responsibilities, .block-field-blocknodejob-postingschema-skills > .content > .field > .field__item:before {
+    content: "• ";
+}
