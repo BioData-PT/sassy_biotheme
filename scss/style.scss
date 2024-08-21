@@ -327,11 +327,11 @@ img.image-style-article-header {
     content: ":";
 }
 
-.block-field-blocknodejob-postingschema-responsibilities, .block-field-blocknodejob-postingschema-skills > .content > .field > .field__item {
+.block-field-blocknodejob-postingschema-responsibilities, .block-field-blocknodejob-postingschema-skills, .field--name-field-learning-outcomes > .content > .field > .field__item {
     margin: .25rem 0;
 }
 
-.block-field-blocknodejob-postingschema-responsibilities, .block-field-blocknodejob-postingschema-skills > .content > .field > .field__item:before {
+.block-field-blocknodejob-postingschema-responsibilities, .block-field-blocknodejob-postingschema-skills, .field--name-field-learning-outcomes > .content > .field > .field__item:before {
     content: "• ";
 }
 
