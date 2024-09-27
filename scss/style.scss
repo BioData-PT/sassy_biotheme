@@ -350,3 +350,8 @@ a:hover {
 .form-type-select {
     margin-inline: 1rem;
 }
+
+/* On the membership request form for communities, hide the URL alias field */
+#group-relationship-community-996ae0cbc1a35b89222ab1-group-request-membership-form #edit-path-wrapper {
+    display: none;
+}
