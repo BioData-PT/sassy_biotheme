@@ -7,6 +7,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22'  # Choose your Node.js version
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm ci
       - name: Copy files to server
         uses: appleboy/scp-action@v0.1.7
         with:
@@ -17,13 +24,4 @@ jobs:
           target: ${{ secrets.TARGET }}
           key: ${{ secrets.PRIVATE_KEY }}
           rm: true
-      - name: Install npm dependencies
-        uses: appleboy/ssh-action@v1.0.0
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.PRIVATE_KEY }}
-          script: |
-            cd ${{ secrets.TARGET }}
-            npm install
 
