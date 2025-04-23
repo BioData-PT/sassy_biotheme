@@ -360,3 +360,14 @@ a:hover {
     width: 100%;
     height: auto;
 }
+
+.service-card-height {
+    height: 150px;
+}
+.service-img-container {
+    height: 100%;
+}
+.service-img-container img {
+    max-height: 100%;
+    max-width: 100%;
+}
