@@ -17,14 +17,13 @@ jobs:
           target: ${{ secrets.TARGET }}
           key: ${{ secrets.PRIVATE_KEY }}
           rm: true
-  install:
-    name: Install npm dependencies
-    uses: appleboy/ssh-action@v1.0.0
-    with:
-      host: ${{ secrets.HOST }}
-      username: ${{ secrets.USERNAME }}
-      key: ${{ secrets.PRIVATE_KEY }}
-      script: |
-        cd ${{ secrets.TARGET }}
-        npm install
+      - name: Install npm dependencies
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.PRIVATE_KEY }}
+          script: |
+            cd ${{ secrets.TARGET }}
+            npm install
 
